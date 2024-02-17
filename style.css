@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: #f8f9fa;
+    font-family: "Fredoka", sans-serif;
+  }
+
+body::before{
+    content: "";
+    display: block;
+    height: 60px;
+}
+
+  .navbar {
+    background-color: #f43543;
+  }
+
+  .navsearch {
+    margin-top: 7px;
+  }
+
+  .signup{
+    padding: 3px;
+    margin-top: 6px
+  }
+
+  .navbar-brand,
+  .nav-link {
+    color: white !important;
+  }
+
+  .content{
+    background-color: #f43543 !important;
+    color: white !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .dim{
+    height: 100vh !important;
+  }
+
+  .btn-style{
+    background-color: #fff !important;
+    color: #f43543 !important;
+  }
+
+  .content-container{
+    margin-top: -50px;
+  }
+
+  .btn-styles{
+    color: #fff !important;
+    background-color: #f43543 !important;
+  }
+
+
+  #cardContainer {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+.card {
+    width: 22rem;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-image{
+    width: 100% !important;
+    height: 200px !important;
+    object-fit: cover !important;
+    object-position: top left !important;
+}
+
+.card-body .card-title {
+    flex-grow: 1;
+}
+
+.card-body .card-text {
+    flex-grow: 2;
+}
+
+.card-body .btn {
+    align-self: flex-start;
+}
+
+.footer-content{
+    width: 100%;
+}
